@@ -25,7 +25,7 @@ function createTable() {
                 
                 for (let j = 0; j < cols; j++) {
                     const cell = row.insertCell();
-                    cell.textContent = `Row-${i}  Column-${j}`;
+                    cell.textContent = `Row-${i} Column-${j}`;
                 }
             }
     
