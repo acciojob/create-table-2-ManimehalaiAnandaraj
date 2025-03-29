@@ -1,6 +1,6 @@
 function createTable() {
     //Write your code here
-     document.getElementById('Btn').addEventListener('click', function() {
+	
             // Clear any existing table
             const table = document.getElementById('myTable');
             table.innerHTML = '';
@@ -18,8 +18,6 @@ function createTable() {
                 alert("alert");
                 return;
             }
-            
-            
             
             // Create table rows and cells
             for (let i = 0; i < rows; i++) {
