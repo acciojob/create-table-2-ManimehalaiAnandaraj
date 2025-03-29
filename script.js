@@ -28,5 +28,5 @@ function createTable() {
                     cell.textContent = `Row ${i}  Column ${j}`;
                 }
             }
-        });
+    
 }
