@@ -1,4 +1,4 @@
-
+function createTable() {
     //Write your code here
      document.getElementById('Btn').addEventListener('click', function() {
             // Clear any existing table
@@ -37,3 +37,4 @@
                 }
             }
         });
+}
